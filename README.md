@@ -31,6 +31,15 @@ https://imgur.com/a/I3hh9Fv
 | Header | Title |
 | Paragraph | Text |
 
+userRoutes.post('/')
+userRoutes.delete('/:id')
+userRoutes.post('/login')
+userRoutes.get('/:userId/getmovies')
+userRoutes.delete('/:userId/delete/:movie')
+movieRoutes.post('/search/:movie')
+movieRoutes.post('/:userId/save/:movie')
+movieRoutes.get('/search/:movie')
+
 # MVP Checklist
 
 - login/logout,sign-up functionality
