@@ -10,6 +10,10 @@ just movies that they've seen before.
 
 # Wireframes
 
+3 images:
+
+https://imgur.com/a/I3hh9Fv
+
 # User Stories
 
 1. The user will see the dashboard first, with a prompt to login to their account or sign up.
