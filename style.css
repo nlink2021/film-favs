@@ -35,6 +35,7 @@ h1 {
     background-color: silver;
     width: 40%;
     opacity: 0.9;
+    border-radius: 25% 10%;
 }
 
 .login-form {
@@ -47,4 +48,15 @@ h1 {
 .linkBar {
     background-color: silver;
     opacity: 0.8;
+}
+
+.signUpScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: silver;
+    width: 40%;
+    opacity: 0.9;
+    border-radius: 25% 10%;
 }
