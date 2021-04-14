@@ -15,11 +15,11 @@
 
         <!-- links -->
         <nav class="linkBar">
-            <span id="home-link" class="nav-link">Home</span>
-            <span id="signup-link" class="nav-link">Sign Up</span>
-            <span id="login-link" class="nav-link">Login</span>
-            <span id="logout-link" class="nav-link">Logout</span>
-            <span id="profile-link" class="nav-link">Profile</span>
+            <span id="home-link" class="nav-link hidden">Home</span>
+            <span id="profile-link" class="nav-link hidden">Profile</span>
+            <span id="signup-link" class="nav-link hidden">Sign Up</span>
+            <span id="login-link" class="nav-link hidden">Login</span>
+            <span id="logout-link" class="nav-link hidden">Logout</span>
         </nav><br>
 
         <div class="landingPage">
@@ -61,18 +61,39 @@
 
         </div>
 
-        <div class="hidden mainDashboard">
+        <div class="mainDashboard hidden">
 
-            <h2>Dashboard</h2>
+            <p id="dashStyle">Dashboard<p>
 
             <div class="filmSearch">
                 <form class="searchBar">
-                    <input type="text" id="filmEntry">
+                    <input type="text" id="filmEntry" size="70">
                     <input type="submit" value="Submit">
                 </form>
 
             </div>
 
+            <div class="movieView hidden">
+                <div>
+                    <span id="viewTitle"></span>
+                </div>
+                <div>
+                    <img id="viewImage" src="" />
+                </div>
+                <div>
+                    <button class="addFav">Add to Favorites</button>               
+                </div>
+            </div>
+
+        </div>
+
+        <div class="userProfile hidden">
+
+            <p id="profileStyle">Welcome, user!</p>
+
+            <div class ="favList">
+
+            </div>
         </div>
 
 
